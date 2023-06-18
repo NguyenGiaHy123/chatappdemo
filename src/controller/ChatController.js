@@ -81,10 +81,6 @@ class UserController{
                 path:'latesMessage.sender',
                 select:'name pic email'
             })
-
-      
-         
-         
          if(!chat){
             rs.status(400).json({
                 message:"không có cuộc trò chuyện nào"

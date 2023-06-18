@@ -39,7 +39,7 @@ app.use(function (req, res, next) {
   const io=require('socket.io')(server,{
     cors: {
       //cho phep port 3000 truy cap vao server
-      origin: "http://localhost:3000",
+      origin: "https://chapappnguyengiahy.vercel.app",
       methods: ["GET", "POST", "DELETE", "PUT"],
       allowedHeaders: [
         "Access-Control-Allow-Origin",
